@@ -3,33 +3,43 @@ body {
 }
 
 .navbar {
-	margin-left: auto;
-	margin-right: auto;
+  border-radius:25px;
+  margin-top: 20px;
+  height: 40px;
+  width: 30%;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navbar ul {
-	margin: 0;
-	padding: 0;
-	margin-left: auto;
-	margin-right: auto;
-	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
 }
 
 .navbar ul li {
-	list-style: none;
-	display: inline;
-	float: left;
-	margin-left: auto;
-	margin-right: auto;
+  list-style: none;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navbar ul li a {
-	text-decoration: none;
-	display: block;
-	padding: 10px 20px;
-	margin-left: auto;
-	margin-right: auto;
+  text-decoration: none;
+  float: left;
+  display: block;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.navbar ul li a:hover {
+  color: green;
+}
+
 
 
 .announcements {
@@ -68,3 +78,8 @@ p {
 	text-align: center;
 }
 
+.container {
+	border-radius: 30%;
+	margin-left: 28%;
+	margin-right: 28%;
+}
