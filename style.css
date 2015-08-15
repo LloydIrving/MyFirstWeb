@@ -2,11 +2,13 @@ body {
 	background-color: #00008b;
 }
 
+/* navbar CSS */
+
 .navbar {
   border-radius:25px;
   margin-top: 20px;
   height: 40px;
-  width: 30%;
+  width: 37%;
   background-color: black;
   margin-left: auto;
   margin-right: auto;
@@ -48,18 +50,6 @@ body {
 	width: 50%;
 }
 
-.Mike {
-	border-radius: 25px;
-	float: right;
-	max-height: 50%;
-}
-
-.Lloyd {
-	border-radius: 25px;
-	float: left;
-	max-width: 23%;
-}
-
 .heading {
 	margin-left: auto;
 	margin-right: auto;
@@ -67,7 +57,7 @@ body {
 }
 
 
-/* this stuff is just for heading and paragraph. Not too important*/
+/* this stuff is just for heading and paragraphs. Not the most important*/
 h1 {
 	color: white;
 	text-align: center;
@@ -82,4 +72,8 @@ p {
 	border-radius: 30%;
 	margin-left: 28%;
 	margin-right: 28%;
+}
+
+.justify {
+  text-align: justify;
 }
