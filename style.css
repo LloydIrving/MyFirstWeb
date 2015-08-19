@@ -15,7 +15,7 @@ body {
 }
 
 .navbar li a {
-  color: white;
+  color: orange;
 }
 
 .navbar ul {
@@ -102,4 +102,8 @@ p {
 
 .Contact a:hover {
   color: green;
+}
+
+.Contact a {
+  color: orange;
 }
